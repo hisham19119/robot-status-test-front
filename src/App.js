@@ -7,8 +7,7 @@ import RobotPhoto from "./rrrobot.jpeg";
 const USERNAME = "admin";
 const PASSWORD = "alyhanykhaledhatem";
 const AUTH_HEADER = "Basic " + btoa(`${USERNAME}:${PASSWORD}`);
-const BASE_URL =
-  "https://robo-new-backend-bqouarho5-aly-awnys-projects.vercel.app";
+const BASE_URL = "https://robot-status-backend.vercel.app/";
 
 function App() {
   const [mode, setMode] = useState("default");
